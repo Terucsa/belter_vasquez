@@ -262,3 +262,13 @@
     height: 15%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
