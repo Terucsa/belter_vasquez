@@ -1,4 +1,5 @@
 /**Bandera Guatemala */
+bandera1();
 function bandera1(){
     let content = ` <article id="ejercicio1">
     <h2>Ejercicio 1: Guatemala</h2>
@@ -13,6 +14,7 @@ let insentar = document.getElementById('insertarContenido');
 insentar.innerHTML = content;
 }
 /**Bandera de la india */
+bandera2();
 function bandera2(){
     let content = ` <article id="ejercicio2">
     <h2>Ejercicio 2: Níger, India</h2>
@@ -31,6 +33,7 @@ let insentar = document.getElementById('insertarContenido');
 insentar.innerHTML = content;
 }
 /**Bandera Paises bajos*/
+bandera3();
 function bandera3(){
     let content = `<article id="ejercicio3">
     <h2>Ejercicio 3: Paises Bajos, Francia</h2>
@@ -52,6 +55,7 @@ let insentar = document.getElementById('insertarContenido');
 
 insentar.innerHTML = content;
 }
+bandera4();
 function bandera4(){
     let content = ` <article id="ejercicio4">
     <h2>Ejercicio 4: Suecia</h2>
@@ -74,6 +78,7 @@ let insentar = document.getElementById('insertarContenido');
 
 insentar.innerHTML = content;
 }
+bandera5();
 function bandera5(){
     let content = ` <article id="ejercicio5">
     <h2>Ejercicio 5: Suiza</h2>
